@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Accept	Sock.hpp	/^        static int Accept(int sock)$/;"	f	class:Sock
+AddEventToEpoll	EpollServer.hpp	/^        void AddEventToEpoll(int sock, uint32_t event)$/;"	f	class:EpollServer
+Bind	Sock.hpp	/^        static void Bind(int sock, int port)$/;"	f	class:Sock
+DelEventFromEpoll	EpollServer.hpp	/^        void DelEventFromEpoll(int sock)$/;"	f	class:EpollServer
+EpollServer	EpollServer.hpp	/^        EpollServer(int _p = 8081):port(_p)$/;"	f	class:EpollServer
+EpollServer	EpollServer.hpp	/^class EpollServer{$/;"	c
+HandlerEvents	EpollServer.hpp	/^        void  HandlerEvents(struct epoll_event revs[],int num)$/;"	f	class:EpollServer
+InitServer	EpollServer.hpp	/^        void InitServer()$/;"	f	class:EpollServer
+Listen	Sock.hpp	/^        static void Listen(int sock)$/;"	f	class:Sock
+SIZE	EpollServer.hpp	3;"	d
+Setsockopt	Sock.hpp	/^        static void Setsockopt(int sock)$/;"	f	class:Sock
+Sock	Sock.hpp	/^class Sock$/;"	c
+Socket	Sock.hpp	/^        static int Socket()$/;"	f	class:Sock
+Start	EpollServer.hpp	/^        void Start()$/;"	f	class:EpollServer
+bucket	EpollServer.hpp	/^        bucket(int sock)$/;"	f	class:bucket
+bucket	EpollServer.hpp	/^class bucket$/;"	c
+buffer	EpollServer.hpp	/^        char buffer[20];$/;"	m	class:bucket
+epfd	EpollServer.hpp	/^        int epfd;  \/\/ epoll 模型的文件描述符，指向一个epoll结构体，结构体里有红黑树和双向链表，这些机制使得epoll模型非常高效$/;"	m	class:EpollServer
+fd	EpollServer.hpp	/^        int fd;$/;"	m	class:bucket
+lsock	EpollServer.hpp	/^        int lsock; \/\/ 监听套接字$/;"	m	class:EpollServer
+main	main.cc	/^int main()$/;"	f
+port	EpollServer.hpp	/^        int port;  \/\/ 端口号$/;"	m	class:EpollServer
+pos	EpollServer.hpp	/^        int pos;$/;"	m	class:bucket
+~EpollServer	EpollServer.hpp	/^        ~EpollServer()$/;"	f	class:EpollServer
+~bucket	EpollServer.hpp	/^        ~bucket()$/;"	f	class:bucket
