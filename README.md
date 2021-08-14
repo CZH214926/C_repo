@@ -1,2 +1,2 @@
 # C_repo
-LearningCode
+这里记录我的学习历程。
